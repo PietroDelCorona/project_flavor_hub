@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./Categories.css";  // Importar o CSS para o componente
+import "./Categories.css";  
 
 function Categories() {
   const [categories, setCategories] = useState([]);

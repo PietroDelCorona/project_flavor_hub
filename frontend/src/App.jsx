@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className='content'>
+      <div className='container'>
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/categories' element={<Categories/>}/>
