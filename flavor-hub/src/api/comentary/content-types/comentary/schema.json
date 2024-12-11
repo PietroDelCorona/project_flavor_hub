@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comentaries",
+  "info": {
+    "singularName": "comentary",
+    "pluralName": "comentaries",
+    "displayName": "Commentary",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "Rate": {
+      "type": "integer"
+    }
+  }
+}
