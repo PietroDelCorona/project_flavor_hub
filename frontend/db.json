@@ -1,0 +1,59 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Bolo de Fubá",
+      "description": "Um delicioso bolo de fubá.",
+      "ingredients": [
+        "3 ovos",
+        "2 xícaras de açúcar",
+        "1 xícara de fubá",
+        "1/2 copo (americano) de óleo",
+        "1 colher (sopa) de fermento em pó",
+        "3 colheres (sopa) rasas de farinha de trigo",
+        "1 copo de leite"
+      ],
+      "instructions": "Bata todos os ingredientes no liquidificador. Coloque em uma forma untada e enfarinhada.Leve ao forno preaquecido e deixe assar, por cerca de 40 minutos.",
+      "category": "Lanche e Snacks"
+    },
+    {
+      "id": 2,
+      "title": "Macarrão ao Molho Branco",
+      "description": "Macarrão cremoso com molho branco.",
+      "ingredients": [
+        "200g de macarrão",
+        "1 xícara de creme de leite",
+        "100g de queijo parmesão"
+      ],
+      "instructions": "Cozinhe o macarrão e adicione o molho.",
+      "category": "Prato Principal"
+    },
+    {
+      "id": "2c8b",
+      "title": "Pina Colada",
+      "description": "A Piña Colada é uma famosa bebida tropical, perfeita para refrescar em dias quentes.",
+      "ingredients": [
+        "1 e 1/2 doses de rum",
+        " 1 dose leite de coco",
+        " 6 pedras de gelo",
+        " 3 doses de suco de abacaxi",
+        " 1 dose leite condensado"
+      ],
+      "instructions": "Coloque os ingredientes em ordem em uma coqueteleira.\nBata por aproximadamente 10 segundos.\nEnfeite um copo com calda de chocolate e um pedaço pequeno de abacaxi.\nPor cima coloque coco ralado.",
+      "category": "Bebidas e Coquetéis"
+    },
+    {
+      "id": "b885",
+      "title": "",
+      "description": "O bobó de camarão é uma iguaria que encanta paladares com sua mistura única de ingredientes e texturas.",
+      "ingredients": [
+        " kg de camarão fresco",
+        " 3 dentes de alho picados e amassados",
+        " 3 cebolas (1 cortada em rodelas e 2 raladas)"
+      ],
+      "instructions": "Cozinhar na panela.",
+      "category": "Pratos Principais",
+      "name": "Bobó de Camarão"
+    }
+  ]
+}

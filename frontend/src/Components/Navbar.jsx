@@ -11,6 +11,7 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/categories">Categorias</Link>
         <Link to="/recipes">Receitas</Link>
+        <Link to="/recipeform">Cadastrar Receita</Link>
       </div>
     </nav>
   );

@@ -7,10 +7,20 @@ function RecipesList() {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
-    axios
-      .get('http://localhost:1337/api/recipes')
-      .then((response) => setRecipes(response.data.data))
-      .catch((error) => console.error('Erro ao carregar receitas:', error));
+    const fetchRecipes = async () => {
+      try {
+        const [strapiResponse, jsonServerResponse] = await Promise.all([
+          axios.get('http://localhost:1337/api/recipes'),
+          axios.get('http://localhost:3001/recipes')
+        ]);
+
+        setRecipes([...strapiResponse.data.data, ...jsonServerResponse.data]);
+      } catch (error) {
+        console.error('Erro ao carregar receitas:', error);
+      }
+    };
+
+    fetchRecipes();
   }, []);
 
   return (
